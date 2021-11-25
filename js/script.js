@@ -14,6 +14,7 @@
 //  - testo.
 // Allo stesso tempo nelle miniature l’immagine attiva dovrà apparire in evidenza rispetto alle altre.
 
+
 // 1.inserire gli array dati con la consegna
 
 // 2.creare un div con classe "img" nel quale inserisco con un ciclo for le immagini dell'array per testare lo slide di destra e con lo stesso metodo creo un ciclo for per visualizzare le immagini nello slide di sinistra
