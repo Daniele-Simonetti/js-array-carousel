@@ -13,3 +13,15 @@
 //  - titolo e
 //  - testo.
 // Allo stesso tempo nelle miniature l’immagine attiva dovrà apparire in evidenza rispetto alle altre.
+
+// 1.inserire gli array dati con la consegna
+
+// 2.creare un div con classe "img" nel quale inserisco con un ciclo for le immagini dell'array per testare lo slide di destra e con lo stesso metodo creo un ciclo for per visualizzare le immagini nello slide di sinistra
+
+// 2.1 l'immagine viene visualizzata quando ha la classe "active"
+
+// 3.1 se clicco sulla freccia down allora l'immagine selezionata precedentemente nello slide di destra perde la sua classe selcted e la acquisice quella sucessiva e la foto di destra perde la classe active e la prende quella sucessiva
+
+// 3.2 se clicco sulla freccia up allora l'immagine selezionata nello slide di destra perde la sua classe selcted e la acquisice quella precedente e la foto di destra selezionata perde la classe active e la acquisisce quella precedente
+
+// 4. quando un'immagine è selezionata creo un div all'interno del "div class=img",precedentemente creato, con classe img-text e al suo interno creo un h2 e un div con scritto all'interno quello dato negli array attraverso un altro ciclo for
