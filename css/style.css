@@ -39,7 +39,7 @@ div.img-box {
   display: none;
 }
 
-img.active {
+.img.active {
   display: block;
 }
 

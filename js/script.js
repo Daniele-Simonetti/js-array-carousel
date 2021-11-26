@@ -16,6 +16,29 @@
 
 
 // 1.inserire gli array dati con la consegna
+const items = [
+  'img/01.jpg',
+  'img/02.jpg',
+  'img/03.jpg',
+  'img/04.jpg',
+  'img/05.jpg'
+];
+
+const title = [
+  'Svezia',
+  'Svizzera',
+  'Gran Bretagna',
+  'Germania',
+  'Paradise'
+];
+
+const text = [
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.',
+  'Lorem ipsum',
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+  'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
+  'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
+];
 
 // 2.creare un div con classe "img" nel quale inserisco con un ciclo for le immagini dell'array per testare lo slide di destra e con lo stesso metodo creo un ciclo for per visualizzare le immagini nello slide di sinistra
 
@@ -26,3 +49,50 @@
 // 3.2 se clicco sulla freccia up allora l'immagine selezionata nello slide di destra perde la sua classe selcted e la acquisice quella precedente e la foto di destra selezionata perde la classe active e la acquisisce quella precedente
 
 // 4. quando un'immagine è selezionata creo un div all'interno del "div class=img",precedentemente creato, con classe img-text e al suo interno creo un h2 e un div con scritto all'interno quello dato negli array attraverso un altro ciclo for
+
+
+// const buttonNext = document.querySelector('.slider .arrow-down');
+// const buttonPrev = document.querySelector('.slider .arrow-up');
+
+
+// buttonNext.addEventListener ('click', function () {
+  
+//   const elementActive = document.querySelector('.main-box .img-box .active');
+
+//   const listClasses = elementActive.classList;
+  
+//   let last = false;
+  
+//   for (let i = 0; i < listClasses.lenght; i++) {
+//     if (listClasses[i] == 'last') {
+//       last = true;
+//     }
+//   }
+
+//   if (last == false) {
+
+//     elementActive.classList.remove('active');
+
+//     const elementNext = elementActive.nextElementSibling;
+
+//     elementNext.classList.add('active');
+//   } 
+
+//   let first = false;
+  
+//   for (let i = 0; i < listClasses.lenght; i++) {
+//     if (listClasses[i] == 'first') {
+//       first = true;
+//     }
+//   }
+
+//   if (first == false) {
+
+//     elementActive.classList.remove('active');
+
+//     const elementPrev = elementActive.previousElementSibling;
+
+//     elementPrev.classList.add('active');
+//   } 
+// });
+
